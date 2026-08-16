@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New an', Times, serif;
+    }
+#nav h1{
+        background-color: aqua;
+        text-align: center;
+        text-transform: capitalize;
+        }
+#inner{
+        font-size: 10px;
+        }
+#outer{
+        font-size: 25px;
+        }
