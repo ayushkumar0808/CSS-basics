@@ -1,0 +1,18 @@
+.nav a{
+    text-decoration: none;
+    margin-left: 100px;
+}
+header{
+    background-color: aquamarine;
+    height: 30px;
+}
+nav{
+    padding: 5px;
+}
+#first{
+    background-color: greenyellow;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+}
