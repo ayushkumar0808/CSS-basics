@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Sizing</title>
+    <style>
+      button {
+        height: 50px;
+        width: 50px;
+        border: 5px solid red;
+        border-radius: 10px;
+        background-color: aquamarine;
+      }
+      .button {
+        box-sizing: border-box;
+      }
+      .button1 {
+        box-sizing: content-box;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button">click me</button>
+    <button class="button1">click me</button>
+  </body>
+</html>
