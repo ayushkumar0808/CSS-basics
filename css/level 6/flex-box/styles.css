@@ -4,8 +4,11 @@
   border-radius: 10px;
   height: 600px;
   width: 600px;
+
   display: flex;
-  flex-direction: column-reverse;
+
+  /* flex-direction: column-reverse; */
+  flex-direction: column;
 }
 .box {
   height: 80px;
