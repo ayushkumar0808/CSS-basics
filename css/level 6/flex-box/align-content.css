@@ -1,0 +1,34 @@
+#container {
+  margin: 5px;
+  height: 600px;
+  width: 500px;
+  border: 3px solid black;
+  background-color: bisque;
+  border-radius: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.box {
+  margin: 5px;
+  height: 70px;
+  width: 70px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#flexbox1 {
+  background-color: red;
+}
+#flexbox2 {
+  background-color: green;
+}
+#flexbox3 {
+  background-color: blue;
+}
+#flexbox4 {
+  background-color: blueviolet;
+}
