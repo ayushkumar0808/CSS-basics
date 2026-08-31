@@ -6,11 +6,11 @@
   width: 600px;
 
   display: flex;
-
+  /* 
   justify-content: flex-start;
   justify-content: flex-end;
   justify-content: space-around;
-  justify-content: space-between;
+  justify-content: space-between; */
   justify-content: space-evenly;
 }
 .box {
