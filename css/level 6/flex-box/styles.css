@@ -1,0 +1,27 @@
+#container {
+  margin: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.box {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+  text-align: center;
+}
+#flexbox1 {
+  background-color: red;
+}
+#flexbox2 {
+  background-color: blue;
+}
+#flexbox3 {
+  background-color: green;
+}
+#flexbox4 {
+  background-color: blueviolet;
+}
