@@ -9,7 +9,8 @@
 
   /* flex-direction: column-reverse; */
   /* flex-direction: column; */
-  flex-direction: row;
+  /* flex-direction: row; */
+  flex-direction: row-reverse;
 }
 .box {
   height: 80px;
