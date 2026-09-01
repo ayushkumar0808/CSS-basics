@@ -1,0 +1,33 @@
+#container {
+  margin: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 600px;
+  width: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+  text-align: center;
+}
+#flexbox1 {
+  background-color: red;
+  order: 4;
+}
+#flexbox2 {
+  background-color: blue;
+  order: 3;
+}
+#flexbox3 {
+  background-color: green;
+  order: 2;
+}
+#flexbox4 {
+  background-color: blueviolet;
+  order: 1;
+}
