@@ -1,0 +1,13 @@
+#container {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 150px 150px;
+}
+.box {
+  background-color: aquamarine;
+  margin: 2px;
+  text-align: center;
+}
