@@ -1,0 +1,46 @@
+.box-container {
+  border: 3px solid black;
+  height: 600px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box {
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box1 {
+  background-color: aquamarine;
+  transition: all 1s ease;
+}
+#box1:hover {
+  transform: translate(50px);
+}
+#box2 {
+  background-color: rgb(61, 148, 224);
+  transition: all 1s ease;
+}
+#box2:hover {
+  transform: translate(50px, 50px);
+}
+#box3 {
+  background-color: rgb(207, 123, 55);
+  transition: all 1s ease;
+}
+#box3:hover {
+  transform: translateX(50px);
+}
+#box4 {
+  background-color: rgb(214, 156, 19);
+  transition: all 1s ease;
+}
+#box4:hover {
+  transform: translatey(50px);
+}
