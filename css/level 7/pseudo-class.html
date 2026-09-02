@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Class</title>
+    <style>
+      .btn {
+        border: 3px solid black;
+        height: 30px;
+        width: 80px;
+        border-radius: 10px;
+        background-color: burlywood;
+        color: blue;
+        transition: all 0.5s;
+      }
+      .btn:hover {
+        height: 40px;
+        width: 90px;
+      }
+      .btn:active {
+        background-color: red;
+        color: gold;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="btn">click me</button>
+  </body>
+</html>
