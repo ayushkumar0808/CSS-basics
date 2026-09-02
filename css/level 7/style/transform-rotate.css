@@ -27,7 +27,7 @@
   transition: all 1s ease;
 }
 #box2:hover {
-  transform: rotate(270deg);
+  transform: rotate(180deg);
 }
 #box3 {
   background-color: rgb(207, 123, 55);
